@@ -11,7 +11,7 @@ spec:
       storageClass: pacific-gold-storage-policy
     workers:
       count: 3
-      class: best-effort-large
+      class: best-effort-xsmall
       storageClass: pacific-gold-storage-policy
   distribution:
     version: v1.16
