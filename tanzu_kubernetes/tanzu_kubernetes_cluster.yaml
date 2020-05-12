@@ -1,8 +1,8 @@
 apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
-  name: argocd-cluster
-  namespace: argocd
+  name: k8s-cluster
+  namespace: platform-automation
 spec:
   topology:
     controlPlane:
