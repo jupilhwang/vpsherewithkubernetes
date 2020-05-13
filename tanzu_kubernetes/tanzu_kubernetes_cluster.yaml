@@ -2,17 +2,17 @@ apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
   name: k8s-cluster
-  namespace: platform-automation
+  namespace: caas
 spec:
   topology:
     controlPlane:
       count: 1
       class: best-effort-xsmall
-      storageClass: pacific-gold-storage-policy
+      storageClass: wcp-storage-general
     workers:
       count: 1
       class: best-effort-xsmall
-      storageClass: pacific-gold-storage-policy
+      storageClass: wcp-storage-general
   distribution:
     version: v1.16
   settings:
