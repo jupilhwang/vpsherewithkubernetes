@@ -10,7 +10,7 @@ spec:
       class: best-effort-xsmall
       storageClass: wcp-storage-general
     workers:
-      count: 1
+      count: 3
       class: best-effort-xsmall
       storageClass: wcp-storage-general
   distribution:
