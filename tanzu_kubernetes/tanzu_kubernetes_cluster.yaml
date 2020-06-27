@@ -23,4 +23,7 @@ spec:
         cidrBlocks: ["198.51.100.0/12"]
       pods:
         cidrBlocks: ["192.0.2.0/16"]
+     storage:
+       classes: ["gold-storage-policy"]
+       defaultClass: gold-storage-policy
 
