@@ -17,7 +17,7 @@ metadata:
   settings:
     network:
       cni:
-        name: calico
+        name: antrea
       services:
         cidrBlocks: ["198.51.100.0/12"]
       pods:
