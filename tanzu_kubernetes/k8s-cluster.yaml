@@ -12,7 +12,7 @@ spec:
       class: best-effort-xsmall
       storageClass: container-vsan-data
     workers:
-      count: 2
+      count: 0
       class: best-effort-xsmall
       storageClass: container-vsan-data
   settings:
