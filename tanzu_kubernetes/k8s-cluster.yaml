@@ -3,6 +3,7 @@ kind: TanzuKubernetesCluster
 metadata:
   name: k8s-cluster-01
   namespace: dev
+spec:  
   topology:
     controlPlane:
       count: 1
