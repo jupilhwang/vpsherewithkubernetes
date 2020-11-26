@@ -16,13 +16,9 @@ metadata:
     version: v1.18.5
   settings:
     network:
-      cni:
-        name: antrea
       services:
         cidrBlocks: ["198.51.100.0/12"]
       pods:
         cidrBlocks: ["192.0.2.0/16"]
-    storage:
-      classes: ["container-vsan-data"]
-      defaultClass: container-vsan-data
+
 
