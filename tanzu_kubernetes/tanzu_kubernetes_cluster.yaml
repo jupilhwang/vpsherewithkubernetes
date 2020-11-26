@@ -1,18 +1,17 @@
 apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
-  name: k8s-cluster
-  namespace: kt01-hks-ns
-spec:
+  name: k8s-cluster-01
+  namespace: dev
   topology:
     controlPlane:
       count: 1
       class: best-effort-xsmall
-      storageClass: gold-storage-policy
+      storageClass: container-vsan-data
     workers:
       count: 1
       class: best-effort-xsmall
-      storageClass: gold-storage-policy
+      storageClass: container-vsan-data
   distribution:
     version: v1.16
   settings:
@@ -24,6 +23,6 @@ spec:
       pods:
         cidrBlocks: ["192.0.2.0/16"]
      storage:
-       classes: ["gold-storage-policy"]
-       defaultClass: gold-storage-policy
+       classes: ["container-vsan-data"]
+       defaultClass: container-vsan-data
 
