@@ -18,7 +18,7 @@ spec:
   settings:
     storage:
       classes: ["container-vsan-data"]
-      defaultClasse: container-vsan-data
+      defaultClass: container-vsan-data
     network:
       cni:
         name: antrea
