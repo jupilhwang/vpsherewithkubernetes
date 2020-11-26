@@ -13,7 +13,7 @@ metadata:
       class: best-effort-xsmall
       storageClass: container-vsan-data
   distribution:
-    version: v1.19
+    version: v1.18.5
   settings:
     network:
       cni:
